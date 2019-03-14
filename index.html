@@ -23,26 +23,14 @@
   <textarea rows="1" cols="30" placeholder="Описание"></textarea>
   <br>
   
-  <input type="text" name="summ"><br>
-  <input type="button" onclick="myFunction()" value="Submit">
+  <input type="text" name="summ" placeholder="Сумма"><br>
+  <input type="button" onclick="buttonValid()" value="Ввести>
   <select>
     <option value="BYN">BYN</option>
     <option value="USD">USD</option>
     <option value="EUR">EUR</option>
     <option value="RUB">RUB</option>
   </select>
-  <br>
-  
-  <script>	
-function myFunction() {
-  var summ = document.getElementsByName("summ")[0].value;
-  if (!summ) {
-  	alert("FFFUUUUUCCCCCKKK!!!");
-  } else {
-    alert(summ);
-  }
-}
-</script>
   <br>
 
 </body>
