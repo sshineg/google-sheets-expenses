@@ -1,12 +1,12 @@
 function buttonValid() {
-  var isSumm = document.getElementsByName("summ")[0].value;
+  var summ = document.getElementsByName("summ")[0].value;
   var description = document.getElementsByName("description")[0].value;
-  if (!isSumm) {
+  if (!summ) {
   	alert("Введите сумму");
   } else if (!description) {
     alert("Enter desc");
   } else {
-    alert(isSumm + "\n" + description);
+    alert(summ + "\n" + description);
   }
 }
 
