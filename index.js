@@ -4,7 +4,7 @@ function buttonValid() {
   if (!summ) {
   	alert("Введите сумму");
   } else if (!description) {
-    alert("Enter desc");
+    alert("Введите описание");
   } else {
     alert("Описание: " + description + "\n" + "Сумма: " + summ);
   }
