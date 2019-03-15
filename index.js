@@ -6,7 +6,7 @@ function buttonValid() {
   } else if (!description) {
     alert("Enter desc");
   } else {
-    alert("Описание: " + description + "\n" + "Сумма" + summ);
+    alert("Описание: " + description + "\n" + "Сумма: " + summ);
   }
 }
 
