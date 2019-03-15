@@ -1,8 +1,8 @@
 function buttonValid() {
-  var summ = document.getElementsByName("summ")[0].value;
-  if (!summ) {
+  var isSumm = document.getElementsByName("summ")[0].value;
+  if (!isSumm) {
   	alert("Введите сумму");
   } else {
-    alert(summ);
+    alert(isSumm);
   }
 }
