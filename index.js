@@ -7,7 +7,7 @@ function onExpensesSubmit() {
   } else if (!description) {
     alert("Введите описание");
   } else {
-    alert("Описание: " + description + "\n" + "Сумма: " + summ + " " + currency);
+    alert("Описание: " + description + "\n" + "Сумма: " + summ + " " + 'currency');
   }
 }
 
