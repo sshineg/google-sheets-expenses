@@ -1,4 +1,4 @@
-function buttonValid() {
+function onExpensesSubmit() {
   var summ = document.getElementsByName("summ")[0].value;
   var description = document.getElementsByName("description")[0].value;
   if (!summ) {
