@@ -1,4 +1,5 @@
 function onExpensesSubmit() {
+  var category = document.getElementsByName("category")[0].value;
   var summ = document.getElementsByName("summ")[0].value;
   var description = document.getElementsByName("description")[0].value;
   var currency = document.getElementsByName("currency")[0].value;
@@ -7,7 +8,7 @@ function onExpensesSubmit() {
   } else if (!description) {
     alert("Введите описание");
   } else {
-    alert("Описание: " + description + "\n" + "Сумма: " + summ + " " + currency);
+    alert("Категория:" + "\n" + "Описание: " + description + "\n" + "Сумма: " + summ + " " + currency);
   }
 }
 
